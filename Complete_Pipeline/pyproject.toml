@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "esab-complete-pipeline"
+version = "1.0.0"
+description = "Signal synchronization, CWT dataset generation, VAE analysis, and supervised prediction for ESAB welding experiments."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Xuzhe Zeng" }
+]
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "scikit-learn>=1.2",
+    "ssqueezepy>=0.6",
+    "torch>=2.0",
+    "torchvision>=0.15",
+    "pandas>=1.5",
+    "openpyxl>=3.1",
+]
+
+[project.scripts]
+esab-complete-pipeline = "esab_complete_pipeline.pipeline:main"
+
+[tool.setuptools.packages.find]
+include = ["esab_complete_pipeline*"]
