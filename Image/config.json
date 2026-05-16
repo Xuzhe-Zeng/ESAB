@@ -1,0 +1,33 @@
+{
+    "data": "../data/Ti64_beadsnpads_02142024",
+    "PARAM": "PARAM",
+    "utils": "utils",
+    "ppln": "pipeline",
+    "processing": "processing",
+    "training": "training",
+    "eval": "evaluation",
+
+    "raw_data_fname": "raw_data_mod",
+    "ACC": "acoustic",
+    "PHO": "photodiode",
+    "HSI": "highspeed",
+    "POR": "porosity",
+    "processed_data_fname": "processed_data_mod",
+    "SCL": "scanlines",
+    "STN": "straightened",
+    "CLP": "clipped",
+    "process_log_name": "process_log",
+
+    "model_fname": "model",
+    "ml_data_fname": "ml_data/mixed",
+    "train_data": "train",
+    "test_data": "test",
+    "results_fname": "results",
+    "train_log_fname": "temp",
+    "eval_fname": "SOTA",
+
+    "PARAM_FILE": "param_perlayer_list.xlsx",
+    "NAME_HEADER": "Name",
+    "P_HEADER": "P (W)",
+    "V_HEADER": "V (m/s)"
+}
